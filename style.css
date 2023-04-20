@@ -20,7 +20,7 @@ body {
 
 .title h1 {
   letter-spacing: 0.75px;
-  color: blueviolet;
+  color: rgb(24, 168, 21);
 }
 
 .wrapper {
@@ -29,7 +29,7 @@ body {
 
 .chat {
   background: white;
-  box-shadow: 10px 10px 0px blueviolet;
+  box-shadow: 10px 10px 0px rgb(24, 147, 56);
   overflow: scroll;
   height: 100%;
   display: flex;

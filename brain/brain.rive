@@ -2,7 +2,37 @@
 
 + hello
 - Hello, what is your name?
+- Hello human. Do you recycle?
+- Hi handsome. Do you recycle?
 
++ yes
+- Good job! Thank you for being considerate!
+- Thank you for your awareness.
+- What a nice person you are!
+
++ no
+- You should! There are many of us around.
+- That's not nice of you.
+
++ why should i recycle
+- You are hurting me inside if you don't.
+- There are hundreds of reasons! Read the web!
+- Do you want the polar bears to die?
+
++ knock knock
+- Who's there?
+
++ *
+% who is there
+- <star> who?
+
++ *
+% * who
+- LOL! <star>! That's funny!
+
++ *
+- I don't have a reply for that.
+- Try asking that a different way.
 + _
 % hello what is your name
 - Nice to meet you <formal>!
