@@ -1,8 +1,7 @@
 ! version = 2.0
 
 + *
-- pick one toothbrush
-- Try typing a name of one of the toothbrushes
+- pick one toothbrush 
 
 + [*] (unknown) [*]
 - Have you seen my papá? {topic=unknown}
@@ -10,42 +9,39 @@
 > topic unknown
 
 + *
-% have you seen my papa
+% have you seen my pap
 - He said we are going to the U.S. because there were people who wanted to hurt us. But I am in this room for 21 days now, do you have food?
 
 + *
-% he said we are going to the u s because there were people who wanted to hurt us but i am in this room for 21 days now do you have food
+% he said we are going to the us because there were people who wanted to hurt us but i am in this room for 21 days now do you have food
 - I tried to take care of this boy, I feed him. I give him water. He calls me mama. He is two. 
 
 + *
 % i tried to take care of this boy i feed him i give him water he calls me mama he is two
-- Ahh, my skin is so itchy and red… I am so tired, I cant sleep, the guards keep yelling. 
+- Ahh, my skin is so itchy and red… I am so tired, I cant sleep, the guards keep yelling. I dont want to be sick, they take you to a different room, some kids dont come back from there. 
 
-I dont want to be sick, they take you to a different room, some kids dont come back from there.
-
-How many years do you have?
 
 + *
-% shh  my skin is so itchy and red i am so tired i cant sleep the guards keep yelling
-
-i dont want to be sick they take you to a different room some kids dont come back from there
-
-how many years do you have
+% ahh my skin is so itchy and red i am so tired i cant sleep the guards keep yelling i dont want to be sick they take you to a different room some kids dont come back from there
+- How many years do you have?
 
 + * 
 % how many years do you have
 - Where are your parents?
 
 + * 
-% wher are your parents
-- I miss my mom. She lives in Delaware…
-… I don't know why am I still here”
+% where are your parents
+- I miss my mom. She lives in Delaware… I don't know why am I still here
 
 + *
-% i miss my mom she lives in delaware i dont know why am i still here”
-- <star> == continue
-- <star> == Okay... {topic=random}
-“In fiscal year 2021, a record 122,000 children were taken into U.S. custody intionally separated children from their parents. 
-These children already suffered trauma of violence and persecution in their native countries then to be lost, h
+% i miss my mom she lives in delaware i do not know why am i still here
+* <star> == continue  => In fiscal year 2021, a record 122,000 children were taken into U.S. custody intionally separated children from their parents. These children already suffered trauma of violence and persecution in their native countries then to be lost, held captive in cages at the borders. 
+* <star> == no  => Okay... {topic=random}
+- say continue or no.
+
++ *
+% say continue or no
+* <star> == continue  => In fiscal year 2021, a record 122,000 children were taken into U.S. custody intionally separated children from their parents. These children already suffered trauma of violence and persecution in their native countries then to be lost, held captive in cages at the borders. 
+* <star> == no  => Okay... {topic=random}
 
 < topic 
