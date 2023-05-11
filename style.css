@@ -66,17 +66,18 @@ body {
 .messages .bot {
   text-align: left;
   margin-right: auto;
-  background: black;
-  color: white;
+  background: rgba(0, 0, 0, 0.3);
+  border: 0.7px solid rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
 }
 
 .messages .self {
   text-align: right;
   margin-right: 20px;
   margin-left: auto;
-  background: white;
-  border: 1px solid blueviolet;
-  color: blueviolet;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
 }
 
 .actions {
