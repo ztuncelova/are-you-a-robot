@@ -1,54 +1,51 @@
 ! version = 2.0
 
-+ hello
-- Hello, what is your name?
-- Hello human. Do you recycle?
-- Hi handsome. Do you recycle?
++ *
+- pick one toothbrush
+- Try typing a name of one of the toothbrushes
 
-+ yes
-- Good job! Thank you for being considerate!
-- Thank you for your awareness.
-- What a nice person you are!
++ [*] (unknown) [*]
+- Have you seen my papá? {topic=unknown}
 
-+ no
-- You should! There are many of us around.
-- That's not nice of you.
-
-+ why should i recycle
-- You are hurting me inside if you don't.
-- There are hundreds of reasons! Read the web!
-- Do you want the polar bears to die?
-
-+ knock knock
-- Who's there?
+> topic unknown
 
 + *
-% who is there
-- <star> who?
+% have you seen my papa
+- He said we are going to the U.S. because there were people who wanted to hurt us. But I am in this room for 21 days now, do you have food?
 
 + *
-% * who
-- LOL! <star>! That's funny!
+% he said we are going to the u s because there were people who wanted to hurt us but i am in this room for 21 days now do you have food
+- I tried to take care of this boy, I feed him. I give him water. He calls me mama. He is two. 
 
 + *
-- I don't have a reply for that.
-- Try asking that a different way.
-+ _
-% hello what is your name
-- Nice to meet you <formal>!
+% i tried to take care of this boy i feed him i give him water he calls me mama he is two
+- Ahh, my skin is so itchy and red… I am so tired, I cant sleep, the guards keep yelling. 
 
-+ my name is *
-- Nice to meet you <star>
-- Nice meeting you <star>
+I dont want to be sick, they take you to a different room, some kids dont come back from there.
 
-+ thank you
-- You are welcome
-- Welcome
-- No problem
-- No worries!
+How many years do you have?
 
 + *
-- Sorry did not get what you said
-- I am afraid that I can not understand you
-- Sorry can you please elaborate that for me
-- I don't get it!
+% shh  my skin is so itchy and red i am so tired i cant sleep the guards keep yelling
+
+i dont want to be sick they take you to a different room some kids dont come back from there
+
+how many years do you have
+
++ * 
+% how many years do you have
+- Where are your parents?
+
++ * 
+% wher are your parents
+- I miss my mom. She lives in Delaware…
+… I don't know why am I still here”
+
++ *
+% i miss my mom she lives in delaware i dont know why am i still here”
+- <star> == continue
+- <star> == Okay... {topic=random}
+“In fiscal year 2021, a record 122,000 children were taken into U.S. custody intionally separated children from their parents. 
+These children already suffered trauma of violence and persecution in their native countries then to be lost, h
+
+< topic 
