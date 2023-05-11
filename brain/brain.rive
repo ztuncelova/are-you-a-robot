@@ -35,13 +35,63 @@
 
 + *
 % i miss my mom she lives in delaware i do not know why am i still here
-* <star> == continue  => In fiscal year 2021, a record 122,000 children were taken into U.S. custody intionally separated children from their parents. These children already suffered trauma of violence and persecution in their native countries then to be lost, held captive in cages at the borders. 
+* <star> == continue  => In fiscal year 2021, a record 122,000 children were taken into U.S. custody intionally separated children from their parents. These children already suffered trauma of violence and persecution in their native countries then to be lost, held captive in cages at the borders. {topic=random}
 * <star> == no  => Okay... {topic=random}
 - say continue or no.
 
 + *
 % say continue or no
-* <star> == continue  => In fiscal year 2021, a record 122,000 children were taken into U.S. custody intionally separated children from their parents. These children already suffered trauma of violence and persecution in their native countries then to be lost, held captive in cages at the borders. 
+* <star> == continue  => In fiscal year 2021, a record 122,000 children were taken into U.S. custody intionally separated children from their parents. These children already suffered trauma of violence and persecution in their native countries then to be lost, held captive in cages at the borders. {topic=random}
 * <star> == no  => Okay... {topic=random}
 
+
 < topic 
+
+
++ [*] (devrim) [*]
+- Hi my name is Devrim, I just moved here from Turkey... Are you local? {topic=devrim}
+
+
+> topic devrim
+
++ *
+% hi my name is devrim i just moved here from turkey are you local
+* <star> == yes  => Ah, that is great! What is your occupation?
+* <star> == no  => Oh, where are you from?
+
++ *
+- That is so cool tho!! I mean for me, it is still quite unbelievable to be here. I miss home, but there is no other option… I have to help my family.
+
++ *
+% that is so cool tho i mean for me it is still quite unbelievable to be here i miss home but there is no other option i have to help my family
+- Anlamıyorsun ben türkiyede yaşamaktan çok korkuyorum
+
++ *
+% anlamyorsun ben trkiyede yaamaktan ok korkuyorum
+- EHM, sorry, öf ya... I am very sorry, this is embarrassing. Do u know the positives of being an immigrant?
+
++ *
+% ehm sorry f ya i am very sorry this is embarrassing do you know the positives of being an immigrant
+- People think you are stealing their jobs, but then they will hire you because they can pay you less. Isn't that funny?
+
++ * 
+% people think you are stealing their jobs but then they will hire you because they can pay you less is not that funny
+- Or, or, or they are like: “Go back to your country!” and expect me to be like: "Yes! I will live all my life in poverty and danger and will never try to have a better life just because I was born in a different place than you!"
+
++ * 
+% or or or they are like go back to your country and expect me to be like yes i will live all my life in poverty and danger and will never try to have a better life just because i was born in a different place than you
+- Pardon, Where did you go for your last holiday?
+
++ *
+% pardon where did you go for your last holiday
+- <star> sounds amazing! FUN FACT when you are not from the EU, UK or US for some reason you can not just travel everywhere u like.
+
++ *
+% * soyounds amazing fun fact when you are not from the eu uk or us for some reason you can not just travel everywhere u like
+- Sorry, I did not mean to be mean. I am just trying to survive and send back as much money as I can. I can't disappoint my family. I need to succeed. I need to be successful. I need to. There is no option to fail. If I fail, everything fails… 
+
++ *
+% sorry i did not mean to be mean i am just trying to survive and send back as much money as i can i can not disappoint my family i need to succeed i need to be successful i need to there is no option to fail if i fail everything fails
+- Sorry, I just have to work hard and everything will be better! Inşallah {topic=random}
+
+< topic
