@@ -58,6 +58,7 @@
 % hi my name is devrim i just moved here from turkey are you local
 * <star> == yes  => Ah, that is great! What is your occupation?
 * <star> == no  => Oh, where are you from?
+- I do not understand what are you saying... {topic=random}
 
 + *
 - That is so cool tho!! I mean for me, it is still quite unbelievable to be here. I miss home, but there is no other option… I have to help my family.
@@ -94,4 +95,6 @@
 % sorry i did not mean to be mean i am just trying to survive and send back as much money as i can i can not disappoint my family i need to succeed i need to be successful i need to there is no option to fail if i fail everything fails
 - Sorry, I just have to work hard and everything will be better! Inşallah {topic=random}
 
++ * 
+- I do not understand what are you saying... {topic=random}
 < topic
