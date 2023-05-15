@@ -88,7 +88,7 @@
 - <star> sounds amazing! FUN FACT when you are not from the EU, UK or US for some reason you can not just travel everywhere u like.
 
 + *
-% * soyounds amazing fun fact when you are not from the eu uk or us for some reason you can not just travel everywhere u like
+% * sounds amazing fun fact when you are not from the eu uk or us for some reason you can not just travel everywhere u like
 - Sorry, I did not mean to be mean. I am just trying to survive and send back as much money as I can. I can't disappoint my family. I need to succeed. I need to be successful. I need to. There is no option to fail. If I fail, everything fails… 
 
 + *
@@ -98,3 +98,137 @@
 + * 
 - I do not understand what are you saying... {topic=random}
 < topic
+
+
+// This section concerns Patricia's toothbrush
+
++ *
+- Hello. Can I help you?
+
++ *
+% hello can i help you
+- Oh, did Brenda send you? Are you my carer for today?
+
++ no
+% hello can i help you|oh did brenda send you are you my carer for today
+- Then who are you? I think you've got the wrong door, love. {weight=50}
+- Perhaps you've come to the wrong house then, darling. Goodbye. {weight=50}
+
++ *
+% oh did brenda send you are you my carer for today
+- Then, please come in! Make yourself at home. 
+
++ *
+% then please come in make yourself at home
+- No worries, darling. I'm Patricia. What's your name?
+
++ *
+% no worries darling im patricia whats your name
+- Nice to meet you, dear. Please, come through here.
+
++ *
+% nice to meet you dear please come through here
+- Would you like a cup of tea?
+
++ yes
+% would you like a cup of tea
+- Ok love, I am going to put the kettle on then.
+
++ no
+% would you like a cup of tea
+- Coffee instead?
+
++ yes
+% coffee instead
+- Ok dear, I'll make your coffee now and you sit down, yeah?
+
++ no
+% coffee instead
+- Ok dear. Please take a seat with me, then.
+
++ *
+% would you like a cup of tea
+- Tea or coffee, my lovely?{weight=50}
+- Sorry, I've only got tea or coffee, dear.{weight=50}
+
++ coffee
+% tea or coffee my lovely|sorry ive only got tea or coffee dear
+- No worries. Please have a seat and I'll get your coffee ready. I'll bring the milk and sugar as well.
+
++ tea
+% tea or coffee my lovely|sorry ive only got tea or coffee dear
+- No worries. Please have a seat and I'll get your tea ready. I'll bring the milk and sugar as well.
+
++ *
+% tea or coffee my lovely|coffee instead|sorry ive only got tea or coffee dear
+- I'll just bring you water then. Please sit down.
+
++ *
+% ill just bring you water then please sit down|no worries please have a seat and ill get your coffee ready ill bring the milk and sugar as well|no worries please have a seat and ill get your tea ready ill bring the milk and sugar as well|ok love i am going to put the kettle on then|ok dear please take a seat with me then|ok dear ill make your coffee now and you sit down yeah
+- Oh! I've only just remembered now that Brenda did tell me she was going on holiday! No wonder you showed up at my door. I am so sorry, haha.
+
++ *
+% oh ive only just remembered now that brenda did tell me she was going on holiday no wonder you showed up at my door i am so sorry haha
+- I'm really sorry about my mood today, but I am a little bit tense today.
+
++ *
+% im really sorry about my mood today but i am a little bit tense today
+- I don't mean to start the morning on a negative note, but I can't stop thinking about this! I don't know if you have seen the news but have you heard about the immigration scandal?
+
++ *
+% i dont mean to start the morning on a negative note but i cant stop thinking about this i dont know if you have seen the news but have you heard about the immigration scandal
+- Oh it's terrible. This blasted government is shipping all of us Caribbean folks back to the Islands, even though we came here as children! Children we were! But they don't care!
+
++ yes
+% i dont mean to start the morning on a negative note but i cant stop thinking about this i dont know if you have seen the news but have you heard about the immigration scandal
+- So you know about the Windrush scandal then, yes? It is terrible! Oh love, it's all going wrong. So many of us Caribbeans are being deported back to the islands but how can we go back to a place we've never called home? I've lived here since I was only five years old. The UK is the only country I've ever called home.
+
++ *
+% oh its terrible this blasted government is shipping all of us caribbean folks back to the islands even though we came here as children children we were but they dont care|so you know about the windrush scandal then yes it is terrible oh love its all going wrong so many of us caribbeans are being deported back to the islands but how can we go back to a place weve never called home ive lived here since i was only five years old the uk is the only country ive ever called home
+- I can't stop worrying about this. I am so stressed, my blood pressure keeps going up. I don't want to be deported back to Jamaica. The last time I went there was for my cousin's funeral. And that was 10 years ago.
+
++ *
+% i cant stop worrying about this i am so stressed my blood pressure keeps going up i dont want to be deported back to jamaica the last time i went there was for my cousins funeral and that was 10 years ago
+- I don't want to be alone if I get deported. Who's going to look after me? What about my children and my grandchildren? Will they be allowed to see me? Will I not get the rest of my pensions? My medications and my care? Oh, this is awful, really awful.
+
++ *
+% i dont want to be alone if i get deported whos going to look after me what about my children and my grandchildren will they be allowed to see me will i not get the rest of my pensions my medications and my care oh this is awful really awful
+- You think after coming to this country and working for the NHS for 50 years, I would be treated much better than this. But instead I'm being made to feel like an alien, like I'm sort of an illegal immigrant.
+
++ * 
+% you think after coming to this country and working for the nhs for 50 years i would be treated much better than this but instead im being made to feel like an alien like im sort of an illegal immigrant
+- Back then us Caribbean folks were told by the British government to come over here. We were promised good paying jobs and good education. That's why we boarded the Windrush. My parents just wanted a better life for me and my siblings.
+
++ *
+% back then us caribbean folks were told by the british government to come over here we were promised good paying jobs and good education thats why we boarded the windrush my parents just wanted a better life for me and my siblings
+- Anyways, it's not that we didn't want to come here. I was five years old, what did I know back then? Despite the hardships I faced since coming to this country, I still love living here. This is my home too!
+
++ *
+% anyways its not that we didnt want to come here i was five years old what did i know back then despite the hardships i faced since coming to this country i still love living here this is my home too
+- In fact, I also loved my job! I loved being a nurse. I loved helping patients and making sure they were doing okay in the hospitals.
+
++ *
+% in fact i also loved my job i loved being a nurse i loved helping patients and making sure they were doing okay in the hospitals
+- I felt like I was making a change to the world. I felt useful and wanted for my services, even though I had to often deal with intense racism from the public and from the hospital staff, especially from some of the white nurses. I remember this one particular encounter with a racist white patient that I still think about from time to time.
+
++ *
+% i felt like i was making a change to the world i felt useful and wanted for my services even though i had to often deal with intense racism from the public and from the hospital staff especially from some of the white nurses i remember this one particular encounter with a racist white patient that i still think about from time to time
+- I guess I should tell you the full story since I've started telling it now. There was this white patient, who had to stay in the hospital for pneumonia and I was his nurse. When I tried to give him his medication, he slapped my hand away and told me that he didn't want my black to rub off on him. That event happened about 60-odd years ago. Can you believe it?!
+
++ *
+% i guess i should tell you the full story since ive started telling it now there was this white patient who had to stay in the hospital for pneumonia and i was his nurse when i tried to give him his medication he slapped my hand away and told me that he didnt want my black to rub off on him that event happened about 60odd years ago can you believe it
+- That’s one of the things I hated about the job. It was horrible seeing how ugly people can get because of their racism, despite some of them being on their deathbed. 
+
++ *
+% thats one of the things i hated about the job it was horrible seeing how ugly people can get because of their racism despite some of them being on their deathbed
+- Being a nurse wasn't all that bad, to be honest. I do have some good stories but sometimes...a part of me feel that the bad experiences outweigh the good, if I'm being truly honest. The racism back then isn't the same as today but I think it's more hidden now.
+
++ *
+% being a nurse wasnt all that bad to be honest i do have some good stories but sometimesa part of me feel that the bad experiences outweigh the good if im being truly honest the racism back then isnt the same as today but i think its more hidden now
+- Oh again, I am so sorry for being such a negative nancy today! But that was my life back then. Now, life is much quieter and less busy. I do deeply miss working with my friends, but I don't miss the hours! Besides, I'm much too old for that. 
+
++ *
+% oh again i am so sorry for being such a negative nancy today but that was my life back then now life is much quieter and less busy i do deeply miss working with my friends but i dont miss the hours besides im much too old for that
+- Right well, that's enough of me blabbering. Shall we get going then? I'll quickly get my coat on and my purse, just wait a minute for me please.
+
+// Toothbrush will return back to homescreen
