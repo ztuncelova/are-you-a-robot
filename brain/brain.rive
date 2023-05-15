@@ -232,3 +232,127 @@
 - Right well, that's enough of me blabbering. Shall we get going then? I'll quickly get my coat on and my purse, just wait a minute for me please.
 
 // Toothbrush will return back to homescreen
+
+
+//sajid's toothbrush section
+
++ *
+- Oh hello! I haven’t seen you around here before. What’s your name? 
+
++ *
+% oh hello i havent seen you around here before whats your name
+- Well it's lovely to meet you. I'm Sajid. What are you in here for today, then? Doing your weekly shopping?
+
++ no
+% well its lovely to meet you im sajid what are you in here for today then doing your weekly shopping
+- Okay, no worries. Let me know if you need any help.
+
+//toothbrush returns to the pot if this command is triggered
+
++ *
+% well its lovely to meet you im sajid what are you in here for today then doing your weekly shopping
+- Great! Well, there are lots of the usual essentials like milk, bread, eggs if you need them. I’ve also got the classic British sweets as well as imported cultural foods, like ghee butter if that’s what you're into as well. If you need anything else, just let me know and I'll lend you a hand.
+
++ *
+% great well there are lots of the usual essentials like milk bread eggs if you need them ive also got the classic british sweets as well as imported cultural foods like ghee butter if thats what youre into as well if you need anything else just let me know and ill lend you a hand
+- No worries. Just shout me out if you need help looking for something.
+
++ *
+% no worries just shout me out if you need help looking for something
+- You ready to pay for these items then?
+
++ *
+% you ready to pay for these items then
+- So where are you from? I haven't seen you around here before.
+
++ no
+% you ready to pay for these items then
+- Oh, never mind then. I must've heard something else.
+
++ *
+% oh never mind then i mustve heard something else
+- Do you live 'round here? You don't look familiar.
+
++ *
+% so where are you from i havent seen you around here before|oh so where are you from then
+- Oh, a few of my customers are from there too. This area’s really diverse, so you won't feel too out of place, which is really nice. 
+
++ no
+% do you live round here you dont look familiar
+- I see. That'll be £6.77. You paying with cash or card?
+
++ *
+% oh a few of my customers are from there too this areas really diverse so you wont feel too out of place which is really nice
+- That’s what I love about living and working here. We’re all from different parts of the world and yet we’ve all come together in this tiny part of London. I guess you could say we’re just a big, friendly family!
+
++ *
+% do you live round here you dont look familiar
+- Oh, so where are you from then?
+
++ *
+% thats what i love about living and working here were all from different parts of the world and yet weve all come together in this tiny part of london i guess you could say were just a big friendly family
+- I've got a little fun fact for you. I own this shop. In fact, this shop’s actually been here since the 70s and my dad used to own it before passing it on to me.
+
++ *
+% ive got a little fun fact for you i own this shop in fact this shops actually been here since the 70s and my dad used to own it before passing it on to me
+- My dad built this shop from the ground up with no money and mum helped him as well. We all actually used to live in the flat above this shop - there’s only two bedrooms but there’s 6 of us and we’ve had to share those two rooms for years, which was difficult but my parents’ hard work paid off.
+
++ *
+% my dad built this shop from the ground up with no money and mum helped him as well we all actually used to live in the flat above this shop theres only two bedrooms but theres 6 of us and weve had to share those two rooms for years which was difficult but my parents hard work paid off
+- Now mum and dad's retired and I’ve taken over the job and the flat too! Luckily, it’s just me, my wife and my daughter that live upstairs now so it’s not as crowded as it used to be, haha. I've also renovated our home to make it look more modern as well.
+
++ *
+% now mum and dads retired and ive taken over the job and the flat too luckily its just me my wife and my daughter that live upstairs now so its not as crowded as it used to be haha ive also renovated our home to make it look more modern as well
+- Do you know what’s the best part of being the owner of a corner shop? It’s the daily conversations I have with my customers. It’s amazing just how long we’ve all known each other and they know my life just as much as I know theirs. It's a bit mad really.
+
+
++ *
+% do you know whats the best part of being the owner of a corner shop its the daily conversations i have with my customers its amazing just how long weve all known each other and they know my life just as much as i know theirs its a bit mad really
+- We’re all local here, that’s why we’ve got such a strong community going on in this neighbourhood. I also don’t get many new customers here, unless they’re visiting. That's why I was interested in where you from - didn't mean to sound like a creep and if I did, I'm really sorry!
+
++ *
+% were all local here thats why weve got such a strong community going on in this neighbourhood i also dont get many new customers here unless theyre visiting thats why i was interested in where you from didnt mean to sound like a creep and if i did im really sorry
+- I can't lie, there are times when I do feel like this job really gets to me. I sometimes get the odd racist customers here and there and they can be a right headache to deal with.
+
++ *
+% i cant lie there are times when i do feel like this job really gets to me i sometimes get the odd racist customers here and there and they can be a right headache to deal with
+- I mean, yeah I am ethnically Pakistani but I was born here in the UK. That makes me as British as any white British person. Doesn't matter if my dad moved here during the 60s, I still consider myself to be British and so does the rest of my family!
+
++ * 
+% i mean yeah i am ethnically pakistani but i was born here in the uk that makes me as british as any white british person doesnt matter if my dad moved here during the 60s i still consider myself to be british and so does the rest of my family
+- Anyways, what was I saying before about my dad? Oh yeah, he came here in the 60s and he met my mum in East London. They’ve been married for 50 years now! It was clear they were meant to be soulmates.
+
++ *
+% anyways what was i saying before about my dad oh yeah he came here in the 60s and he met my mum in east london theyve been married for 50 years now it was clear they were meant to be soulmates
+- They had my oldest brother, then my sister, then me and then my youngest brother. Life was really hard back then. All that racism and discrimination made living in London absolute hell. But my parents worked very hard to get to where they were and now they get to enjoy the fruits of their labour. That'll be me and my wife one day.
+
++ *
+% they had my oldest brother then my sister then me and then my youngest brother life was really hard back then all that racism and discrimination made living in london absolute hell but my parents worked very hard to get to where they were and now they get to enjoy the fruits of their labour thatll be me and my wife one day
+- Anyways, I hope you enjoyed listening to my little family history. It's always great to see new faces around here. 
+
++ *
+% anyways i hope you enjoyed listening to my little family history its always great to see new faces around here 
+- Ooh, by the way that'll be £6.77. You paying with cash or card?
+
++ *
+% ooh by the way thatll be 677 you paying with cash or card|i see thatll be 677 you paying with cash or card
+- Sorry, I didn't catch that. Card or cash?{weight=40}
+- Couldn't hear you sorry. Did you say card?{weight=60}
+
++ cash
+% ooh by the way thatll be 677 you paying with cash or card|sorry i didnt catch that card or cash|couldnt hear you sorry did you say card|i see thatll be 677 you paying with cash or card
+- Thanks. Here's your change. Hopefully we'll see each other around soon. Take care!
+
++ card
+% ooh by the way thatll be 677 you paying with cash or card|sorry i didnt catch that card or cash|couldnt hear you sorry did you say card|i see thatll be 677 you paying with cash or card
+- Great, just tap it against the reader for me. And...that's gone through! Do you want a receipt?
+
++ *
+% great just tap it against the reader for me andthats gone through do you want a receipt
+- There you go. I hope you have an amazing day. Bye now!
+
++ no
+% great just tap it against the reader for me andthats gone through do you want a receipt
+- No worries. Enjoy your day and see you again soon!
+
+//Toothbrush returns to pot/end of conversation
