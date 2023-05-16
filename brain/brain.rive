@@ -356,3 +356,125 @@
 - No worries. Enjoy your day and see you again soon!
 
 //Toothbrush returns to pot/end of conversation
+
+
+// K's toothbrush section
+
++ *
+- Sorry, do I know you?
+
++ no
+% sorry do i know you
+- Okay...I'm gonna go...
+
+//toothbrush returns to pot
+
++ *
+% sorry do i know you
+- Wait, are you new? I think I've seen you in my Maths class before.
+
++ *
+% wait are you new i think ive seen you in my maths class before|i think youre lying cos ive literally seen you in class yesterday
+- Anyways, what's your name?
+
++ no
+% wait are you new i think ive seen you in my maths class before
+- Oh, okay. I swear on my life I've seen you in class before, don't lie.
+
++ *
+% oh okay i swear on my life ive seen you in class before dont lie
+- I think you're lying cos I've literally seen you in class yesterday.
+
++ *
+% anyways whats your name
+- Cool name. My name's K. Don't ask what it stands for, it's just K alright?
+
++ *
+% cool name my names k dont ask what it stands for its just k alright
+- So what GCSE's are you gonna choose?
+
++ *
+% so what gcses are you gonna choose
+- Mmm, I'm thinking of doing History, Art, Drama...and probably French. 
+
++ *
+% mmm im thinking of doing history art dramaand probably french
+- Yeah anyways, what are you doing after school?
+
++ * 
+% yeah anyways what are you doing after school
+- Come walk home with me. We can talk at the same time and...Oh wait there's no point since you can't come over today.
+
++ * 
+% come walk home with me we can talk at the same time andoh wait theres no point since you cant come over today
+- Yeah, my mum told me not to bring anyone from school home today because her own friends are coming. God, I hate greeting them. It's so awkward trying to speak to them in our language, since I can barely speak it.
+
++ * 
+% yeah my mum told me not to bring anyone from school home today because her own friends are coming god i hate greeting them its so awkward trying to speak to them in our language since i can barely speak it
+- It's cool that I come from like two different cultures, but I don't know...sometimes it's weird having to deal with, like, the discrimination from here and from the people from my family's culture as well. Like, does that make sense?
+
++ no
+% its cool that i come from like two different cultures but i dont knowsometimes its weird having to deal with like the discrimination from here and from the people from my familys culture as well like does that make sense
+- No? Okay wait, let me say it in a better way. I meant it's strange to be discriminated by the people in this country. And to also be discriminated by people that are from my cultures too, just because I wasn't born in the same country as them.
+
++ *
+% its cool that i come from like two different cultures but i dont knowsometimes its weird having to deal with like the discrimination from here and from the people from my familys culture as well like does that make sense|no okay wait let me say it in a better way i meant its strange to be discriminated by the people in this country and to also be discriminated by people that are from my cultures too just because i wasnt born in the same country as them
+- I mean, I was born here and so was my mum and my dad. But both my grandparents from both sides moved here, cos you know, better life, better jobs, blah blah. 
+
++ *
+% i mean i was born here and so was my mum and my dad but both my grandparents from both sides moved here cos you know better life better jobs blah blah 
+- Yeah, I mean I'm not, like, technically a true immigrant since I was born here. But it's like I'm made to feel like I am one in this country just because I follow my parents' cultures and I can speak their languages too. Well, barely but I can still understand what they're saying. I'm just not that good at replying back cos I wasn't really taught how to speak it, you know?
+
++ *
+% yeah i mean im not like technically a true immigrant since i was born here but its like im made to feel like i am one in this country just because i follow my parents cultures and i can speak their languages too well barely but i can still understand what theyre saying im just not that good at replying back cos i wasnt really taught how to speak it you know
+- Yeah, yeah, you get it right? Where's your family from?
+
++ no
+% yeah yeah you get it right wheres your family from
+- Oh wait, you don't? Ah, never mind then. But still, don't you think it's so weird just having to hear certain people go on about how much they hate immigration?
+
++ *
+% yeah yeah you get it right wheres your family from
+- So you do get it! Don't you think it's so frustrating having to deal with people who think immigration's bad? Like, this government actually hates immigrants, I swear.
+
++ *
+% so you do get it dont you think its so frustrating having to deal with people who think immigrations bad like this government actually hates immigrants i swear|oh wait you dont ah never mind then but still dont you think its so weird just having to hear certain people go on about how much they hate immigration
+- What's actually wrong with immigration though? I personally think it's a good thing, cos look at all the different cultures that live here. You get so many cool people, food, communities and so much more. Like, a lot of my friends families' are immigrants. And some of my other ones are like me - we were born here like our parents were, but our grandparents moved here in, like, the '60s. I think we're- what do they call it?
+
++ *
+% whats actually wrong with immigration though i personally think its a good thing cos look at all the different cultures that live here you get so many cool people food communities and so much more like a lot of my friends families are immigrants and some of my other ones are like me we were born here like our parents were but our grandparents moved here in like the 60s i think were what do they call it
+- Third generation immigrants, yeah! That's what we are. But yeah, I just don't get the hate immigrants get. Like, people actually believe we're gonna take their jobs? You mean jobs like working in a McDonalds? Why would anyone wanna work in that dump unless they were desperate? Please, some of these people actually lack brain cells, it's actually scary.
+
++ * 
+% third generation immigrants yeah thats what we are but yeah i just dont get the hate immigrants get like people actually believe were gonna take their jobs you mean jobs like working in a mcdonalds why would anyone wanna work in that dump unless they were desperate please some of these people actually lack brain cells its actually scary
+- Do you always feel like you're going through some identity crisis as well? Like literally yesterday, one of my mum's friends told me I sound like I'm from here every time I speak in their language. She said it in a jokey way, but I don't know. I can't stop thinking about it.
+
++ *
+% do you always feel like youre going through some identity crisis as well like literally yesterday one of my mums friends told me i sound like im from here every time i speak in their language she said it in a jokey way but i dont know i cant stop thinking about it
+- It's like as if I don't belong to their culture. I didn't like how I felt after she said that. I felt isolated and like an outsider, you know?
+
++ *
+% its like as if i dont belong to their culture i didnt like how i felt after she said that i felt isolated and like an outsider you know
+- Sorry, I'm getting a bit too deep, especially since I've only just met you like 5 minutes ago. But do you get what I mean? I just feel like I'm not a part of my mum's culture and that I'm not allowed to be in their space, just because I can barely speak the language.
+
++ *
+% sorry im getting a bit too deep especially since ive only just met you like 5 minutes ago but do you get what i mean i just feel like im not a part of my mums culture and that im not allowed to be in their space just because i can barely speak the language
+- It's the same with my dad's culture as well. It's soooo awkward and I hate talking in our language sometimes.
+
++ *
+% its the same with my dads culture as well its soooo awkward and i hate talking in our language sometimes
+- But the thing is, I don't hate being from a multicultural background! It's just that I hate that I don't feel like I belong here in this country just because of my immigrant background. And I also hate that I'm, like, seen as an outsider in both my parents' cultures. It's just soooo weird to deal with this???
+
++ *
+% but the thing is i dont hate being from a multicultural background its just that i hate that i dont feel like i belong here in this country just because of my immigrant background and i also hate that im like seen as an outsider in both my parents cultures its just soooo weird to deal with this
+- Anyways, it was really nice talking to you. I've gotta go now, so I'll see you in school tomorrow, yeah? Wait, give me your phone number so I can text you.
+
++ no
+% anyways it was really nice talking to you ive gotta go now so ill see you in school tomorrow yeah wait give me your phone number so i can text you
+- No? Alright, I'll see you tomorrow then. Bye.
+
++ *
+% anyways it was really nice talking to you ive gotta go now so ill see you in school tomorrow yeah wait give me your phone number so i can text you
+- Thanks. I've just called you, so don't forget to save my number yeah? Okay byeeeee!
+
+//Toothbrush returns to the pot
