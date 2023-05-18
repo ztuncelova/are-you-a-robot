@@ -17,11 +17,12 @@
 ! sub -         = minus
 ! sub /         = divided
 ! sub *         = times
-! sub yes       = yeah
-! sub yes       = ye
-! sub yes       = yep
-! sub no        = nope
-! sub no        = n
+! sub yeah      = yes
+! sub yep       = yes
+! sub ye      = yes
+! sub nope       = no
+! sub nah       = no
+! sub n        = no
 ! sub i'm       = i am
 ! sub i'd       = i would
 ! sub i've      = i have
