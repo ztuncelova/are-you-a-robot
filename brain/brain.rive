@@ -383,22 +383,27 @@ back then us caribbean folks were told by the british government to come over he
 
 + yes
 % sorry do i know you
-- I knew I've seen you before 😏. What's your name, by the way?
+- Wait, I think I know who you are. Were you in Maths yesterday?
 
 + *
 % sorry do i know you
 - Wait, are you new 🤔? I think I've seen you in my Maths class before.
 
 + yes
-% wait are you new i think i have seen you in my maths class before|huh it is just a yes or a no question bro
+% wait are you new i think i have seen you in my maths class before|wait i think i know who you are were you in maths yesterday
 - Thought I recognised ya! 😛 What's your name again?
+- I knew I've seen you before 😏. What's your name, by the way?
+
++ no
+% wait i think i know who you are were you in maths yesterday
+- So...who are you then? 🤨
 
 + no
 % wait are you new i think i have seen you in my maths class before|huh it is just a yes or a no question bro|really i feel like i have seen you before
 - Oh, okay. I swear on my life I've seen you in class before, don't lie.
 
 + *
-% sorry do i know you|wait are you new i think i have seen you in my maths class before|i think you are lying cos i have literally seen you in class yesterday|really i feel like i have seen you before
+% sorry do i know you|wait are you new i think i have seen you in my maths class before|i think you are lying cos i have literally seen you in class yesterday|really i feel like i have seen you before|wait i think i know who you are were you in maths yesterday
 - Huh? It's just a yes or a no question, bro 🤨.
 
 + *
@@ -406,67 +411,116 @@ back then us caribbean folks were told by the british government to come over he
 - Rah man, you're being weird. I'm gonna go, see ya!🥱{topic=random}
 
 + *
-% oh okay i swear on my life i have seen you in class before do not lie
+% oh okay i swear on my life i have seen you in class before do not lie|really i feel like i have seen you before
 - I think you're lying cos I've literally seen you in class yesterday. 😒
+
++ yes
+% i think you are lying cos i have literally seen you in class yesterday|huh it is just a yes or a no question bro
+- I thought so 😐. What's your name?
 
 + no
 % i think you are lying cos i have literally seen you in class yesterday
 - Bro, you're actually annoying me now. I'm gonna go 🙄.{topic=random}
 
 + *
-% i think you are lying cos i have literally seen you in class yesterday
-- I thought so 😐. What's your name?
+% i thought so what is your name|i knew i have seen you before what is your name by the way|sowho are you then
+- Cool name, <star>. My name's K. Don't ask what it stands for, it's just K alright? 😌
 
-+ *
-% i thought so what is your name|thought i recognised ya what is your name again|i knew i have seen you before what is your name by the way
-- Cool name, <star>. My name's K. Don't ask what it stands for, it's just K alright? 😌{weight=60}
-- Ooh, I like your name, <star>! Mine's K, just K.{weight=40}
++ * 
+% thought i recognised ya what is your name again
+- Ooh, I like your name, <star>! ❤️ Mine's K, just K.
 
 + *
 % cool name * my names k do not ask what it stands for it is just k alright|ooh i like your name * mines k just k
-- So what GCSEs are you gonna choose?{topic=gcses}
-
->topic gcses
+- So what GCSEs are you gonna choose?
 
 + *
-% so what gcses are you gonna choose
+% so what gcses are you gonna choose|oh youre my age thats cool
 - Mmm, I'm thinking of doing History, Art, Drama...and probably French. 
 
-+ [*] i do not know|idk [*]
++ [*] do not know|idk [*]
 % so what gcses are you gonna choose
 - What? What do you mean you don't know what GCSEs you're gonna do??? You know the deadline's next week, right? 🤔
 
 + [*] i do not care|idc [*]
 % so what gcses are you gonna choose
-- Huh??? What do you mean you don't care???
+- Huh??? What do you mean you don't care??? 😳
 
 + [*] not doing them [*]
 % so what gcses are you gonna choose
-- Wait, what do you mean you're not doing your GCSEs? 
+- Wait, what do you mean you're not doing your GCSEs??? 🤨
 
-+ [age]
-% wait what do you mean you are not doing your gcses|huh what do you mean you do not care
-- Bro, you're actually old!! 😧 How'd you get into the school?? 😦
++ [*] already|did them|done them[*]
+% so what gcses are you gonna choose
+- If you've done them, then why are you here? Did you fail them or something? 🤣
 
 + *
-% bro you are actually old howd you get into the school
+% if you have done them then why are you here did you fail them or something
+- What??? Anyways, what are you doing after school?
+
++ no
+% if you have done them then why are you here did you fail them or something
+- Right well anyways, I'm gonna do History, Art, Drama and maybe French, I don't know yet. 🤔
+
++ yes
+% if you have done them then why are you here did you fail them or something
+- Bruh, so you're doing resits then? That's so embarassing, loooool!! 😂😂😂😂😂😂😂😂😂😂
+
++ [*] i do not care|idc [*]
+% what what do you mean you do not know what gcses you are gonna do you know the deadlines next week right
+- Huh??? What do you mean you don't care??? 😳
+
++ [*] idc|i do not care|dont care [*]
+% what what do you mean you do not know what gcses you are gonna do you know the deadlines next week right|huh what do you mean you do not care
+- Rah man, you're brave. Have fun failing them tests 😂.
+
++ [*] i am * years old|i am * [*]
+% so what gcses are you gonna choose
+* <get age=<star> == 14 => Oh you're my age! That's cool. 🥰
+* <get age=<star> >= 17 => Bro, what?! Oh my God, you're actually old!! 😧 How'd you get into the school?? 😦
+
++ *
+% bro what oh my god you are actually old howd you get into the school
 - Nahhhh, I actually have to go!🏃🏽‍♀️💨{topic=random}
 
 + *
-% mmm i am thinking of doing history art dramaand probably french
+% mmm i am thinking of doing history art dramaand probably french|right well anyways i am gonna do history art drama and maybe french i do not know yet|bruh so you are doing resits then thats so embarassing loooool
 - Yeah anyways, what are you doing after school?
-< topic
+
++ *
+% what what do you mean you do not know what gcses you are gonna do you know the deadlines next week right|wait what do you mean you are not doing your gcses
+- Ugh, it doesn't matter. Are you doing anything after school?
+
++ yeah
+% ugh it doesnt matter are you doing anything after school
+- Aw, you do??? 😖😭 Alright then. Shall we meet up some other time, then?
+
++ no
+% ugh it doesnt matter are you doing anything after school
+- Purr, come walk home with me then. You can come over and...Oh my God, you can't cos of my mum.
 
 + * 
-% yes anyways what are you doing after school
-- Come walk home with me. We can talk at the same time and...Oh wait there's no point since you can't come over today.😪
+% yes anyways what are you doing after school|ugh it doesnt matter are you doing anything after school|what anyways what are you doing after school
+- Come walk home with me then. We can talk at the same time and...Oh wait there's no point since you can't come over today.😪
+
++ *
+% rah man you are brave have fun failing them tests
+- Anyways, come walk home with me. We can go to my house and- oh wait, no you can't. My mum's got her friends coming over.
+
++ [*] why [*]
+% come walk home with me then we can talk at the same time andoh wait theres no point since you can not come over today|anyways come walk home with me we can go to my house and oh wait no you can not my mums got her friends coming over|purr come walk home with me then you can come over andoh my god you can not cos of my mum
+- Cos my mum's got her friends coming over, which means I'm not allowed to bring anyone over, ugh 😒. It's so awkward man speaking to her friends, you know?
+
++ no
+% cos my mums got her friends coming over which means i am not allowed to bring anyone over ugh it is so awkward man speaking to her friends you know
+- What? Anyways, like I was saying...
 
 + * 
-% come walk home with me we can talk at the same time andoh wait theres no point since you can not come over today
+% come walk home with me then we can talk at the same time andoh wait theres no point since you can not come over today|anyways come walk home with me we can go to my house and oh wait no you can not my mums got her friends coming over|purr come walk home with me then you can come over andoh my god you can not cos of my mum
 - Yeah, my mum told me not to bring anyone from school home today because her own friends are coming 🤧. God, I hate greeting them. It's so awkward trying to speak to them in our language, since I can barely speak it.
 
 + * 
-% yes my mum told me not to bring anyone from school home today because her own friends are coming god i hate greeting them it is so awkward trying to speak to them in our language since i can barely speak it
+% yes my mum told me not to bring anyone from school home today because her own friends are coming god i hate greeting them it is so awkward trying to speak to them in our language since i can barely speak it|cos my mums got her friends coming over which means i am not allowed to bring anyone over ugh it is so awkward man speaking to her friends you know|what anyways like i was saying
 - It's cool that I come from like two different cultures, but I don't know 😓...sometimes it's weird having to deal with, like, the discrimination from here and from the people from my family's culture as well. Like, does that make sense?
 
 + no
@@ -474,12 +528,28 @@ back then us caribbean folks were told by the british government to come over he
 - No 😦? Okay wait, let me say it in a better way. I meant it's strange to be discriminated by the people in this country. And to also be discriminated by people that are from my cultures too, just because I wasn't born in the same country as them.
 
 + *
-% it is cool that i come from like two different cultures but i do not know sometimes it is weird having to deal with like the discrimination from here and from the people from my familys culture as well like does that make sense|no okay wait let me say it in a better way i meant its strange to be discriminated by the people in this country and to also be discriminated by people that are from my cultures too just because i wasnt born in the same country as them
+% it is cool that i come from like two different cultures but i do not know sometimes it is weird having to deal with like the discrimination from here and from the people from my familys culture as well like does that make sense|no okay wait let me say it in a better way i meant it is strange to be discriminated by the people in this country and to also be discriminated by people that are from my cultures too just because i wasnt born in the same country as them
 - I mean, I was born here and so was my mum and my dad. But both my grandparents from both sides moved here, cos you know, better life, better jobs, blah blah. 
 
 + *
 % i mean i was born here and so was my mum and my dad but both my grandparents from both sides moved here cos you know better life better jobs blah blah 
 - Yeah, I mean I'm not, like, technically a true immigrant since I was born here 🥴. But it's like I'm made to feel like I am one in this country just because I follow my parents' cultures and I can speak their languages too. Well, barely but I can still understand what they're saying. I'm just not that good at replying back cos I wasn't really taught how to speak it, you know?
+
++ no
+% yes i mean i am not like technically a true immigrant since i was born here but it is like i am made to feel like i am one in this country just because i follow my parents cultures and i can speak their languages too well barely but i can still understand what they are saying i am just not that good at replying back cos i wasnt really taught how to speak it you know
+- Bro, are you even listening??? 😠
+
++ *
+% bro are you even listening
+- Huh? 🤔 What are you even saying??? 🤨
+
++ yes
+% bro are you even listening|huh what are you even saying
+- Anyways 😒...where was I? 
+
++ no
+% bro are you even listening
+- Bruh, I'm going home since you can't keep up a conversation. Bye weirdo!{topic=random}
 
 + *
 % yes i mean i am not like technically a true immigrant since i was born here but it is like i am made to feel like i am one in this country just because i follow my parents cultures and i can speak their languages too well barely but i can still understand what they are saying i am just not that good at replying back cos i wasnt really taught how to speak it you know
@@ -494,15 +564,31 @@ back then us caribbean folks were told by the british government to come over he
 - So you do get it! 😭🤩🤩 Don't you think it's so frustrating having to deal with people who think immigration's bad? Like, this government actually hates immigrants, I swear.
 
 + *
-% so you do get it do not you think it is so frustrating having to deal with people who think immigrations bad like this government actually hates immigrants i swear|oh wait you do not ah never mind then but still do not you think it is so weird just having to hear certain people go on about how much they hate immigration
+% so you do get it do not you think it is so frustrating having to deal with people who think immigrations bad like this government actually hates immigrants i swear|oh wait you do not ah never mind then but still do not you think it is so weird just having to hear certain people go on about how much they hate immigration|anyways where was i
 - What's actually wrong with immigration though? I personally think it's a good thing, cos look at all the different cultures that live here. You get so many cool people, food, communities and so much more. Like, a lot of my friends families' are immigrants. And some of my other ones are like me - we were born here like our parents were, but our grandparents moved here in, like, the '60s. I think we're- what do they call it?
+
++ no
+% oh wait you do not ah never mind then but still do not you think it is so weird just having to hear certain people go on about how much they hate immigration
+- Sorry??? 😧😳 Did I hear that right?
+
++ yes
+% sorry did i hear that right
+- Nah, you're weirdddd. I don't talk to people who hate immigrants, bye! 🖕
+
++ *
+% sorry did i hear that right
+- What??? Anyways...
+
++ no
+% sorry did i hear that right
+- Thought so...🤨
 
 + *
 % what is actually wrong with immigration though i personally think it is a good thing cos look at all the different cultures that live here you get so many cool people food communities and so much more like a lot of my friends families are immigrants and some of my other ones are like me minus we were born here like our parents were but our grandparents moved here in like the 60s i think were what do they call it
 - Third generation immigrants, yeah 🤩! That's what we are. But yeah, I just don't get the hate immigrants get. Like, people actually believe we're gonna take their jobs? You mean jobs like working in a McDonalds? Why would anyone wanna work in that dump unless they were desperate? Please, some of these people actually lack brain cells, it's actually scary.
 
 + * 
-% third generation immigrants yes thats what we are but yes i just do not get the hate immigrants get like people actually believe we are gonna take their jobs you mean jobs like working in a mcdonalds why would anyone want to work in that dump unless they were desperate please some of these people actually lack brain cells it is actually scary
+% third generation immigrants yes thats what we are but yes i just do not get the hate immigrants get like people actually believe we are gonna take their jobs you mean jobs like working in a mcdonalds why would anyone want to work in that dump unless they were desperate please some of these people actually lack brain cells it is actually scary|what anyways|thought so
 - Do you always feel like you're going through some identity crisis as well 😭😖? Like literally yesterday, one of my mum's friends told me I sound like I'm from here every time I speak in their language. She said it in a jokey way, but I don't know. I can't stop thinking about it.
 
 + *
