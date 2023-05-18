@@ -85,10 +85,10 @@
 
 + *
 % pardon where did you go for your last holiday
-- That sounds amazing! FUN FACT when you are not from the EU, UK or US for some reason you can not just travel everywhere u like.
+- <star> sounds amazing! FUN FACT when you are not from the EU, UK or US for some reason you can not just travel everywhere u like.
 
 + *
-% that soyounds amazing fun fact when you are not from the eu uk or us for some reason you can not just travel everywhere u like
+% * soyounds amazing fun fact when you are not from the eu uk or us for some reason you can not just travel everywhere u like
 - Sorry, I did not mean to be mean. I am just trying to survive and send back as much money as I can. I can't disappoint my family. I need to succeed. I need to be successful. I need to. There is no option to fail. If I fail, everything fails… 
 
 + *
@@ -126,10 +126,10 @@
 
 + *
 % no worries darling i am patricia what is your name
-- Nice to meet you, dear. Please, come through here.
+- Nice to meet you, <star>. Please, come through here.
 
 + *
-% nice to meet you dear please come through here
+% nice to meet you * please come through here
 - Would you like a cup of tea?
 
 + yes
@@ -379,39 +379,83 @@ back then us caribbean folks were told by the british government to come over he
 
 + no
 % sorry do i know you
-- Okay...I'm gonna go...😟{topic=random}
+- Really? 🤔 i feel like I've seen you before.
+
++ yes
+% sorry do i know you
+- I knew I've seen you before 😏. What's your name, by the way?
 
 + *
 % sorry do i know you
 - Wait, are you new 🤔? I think I've seen you in my Maths class before.
 
-+ *
-% wait are you new i think i have seen you in my maths class before|i think you are lying cos i have literally seen you in class yesterday
-- Anyways, what's your name?
++ yes
+% wait are you new i think i have seen you in my maths class before|huh it is just a yes or a no question bro
+- Thought I recognised ya! 😛 What's your name again?
 
 + no
-% wait are you new i think i have seen you in my maths class before
+% wait are you new i think i have seen you in my maths class before|huh it is just a yes or a no question bro|really i feel like i have seen you before
 - Oh, okay. I swear on my life I've seen you in class before, don't lie.
+
++ *
+% sorry do i know you|wait are you new i think i have seen you in my maths class before|i think you are lying cos i have literally seen you in class yesterday|really i feel like i have seen you before
+- Huh? It's just a yes or a no question, bro 🤨.
+
++ *
+% huh it is just a yes or a no question bro
+- Rah man, you're being weird. I'm gonna go, see ya!🥱{topic=random}
 
 + *
 % oh okay i swear on my life i have seen you in class before do not lie
 - I think you're lying cos I've literally seen you in class yesterday. 😒
 
-+ *
-% anyways what is your name
-- Cool name. My name's K. Don't ask what it stands for, it's just K alright? 😌
++ no
+% i think you are lying cos i have literally seen you in class yesterday
+- Bro, you're actually annoying me now. I'm gonna go 🙄.{topic=random}
 
 + *
-% cool name my names k do not ask what it stands for it is just k alright
-- So what GCSE's are you gonna choose?
+% i think you are lying cos i have literally seen you in class yesterday
+- I thought so 😐. What's your name?
+
++ *
+% i thought so what is your name|thought i recognised ya what is your name again|i knew i have seen you before what is your name by the way
+- Cool name, <star>. My name's K. Don't ask what it stands for, it's just K alright? 😌{weight=60}
+- Ooh, I like your name, <star>! Mine's K, just K.{weight=40}
+
++ *
+% cool name * my names k do not ask what it stands for it is just k alright|ooh i like your name * mines k just k
+- So what GCSEs are you gonna choose?{topic=gcses}
+
+>topic gcses
 
 + *
 % so what gcses are you gonna choose
 - Mmm, I'm thinking of doing History, Art, Drama...and probably French. 
 
++ [*] i do not know|idk [*]
+% so what gcses are you gonna choose
+- What? What do you mean you don't know what GCSEs you're gonna do??? You know the deadline's next week, right? 🤔
+
++ [*] i do not care|idc [*]
+% so what gcses are you gonna choose
+- Huh??? What do you mean you don't care???
+
++ [*] not doing them [*]
+% so what gcses are you gonna choose
+- Wait, what do you mean you're not doing your GCSEs? 
+
++ [age]
+% wait what do you mean you are not doing your gcses|huh what do you mean you do not care
+- Bro, you're actually old!! 😧 How'd you get into the school?? 😦
+
++ *
+% bro you are actually old howd you get into the school
+- Nahhhh, I actually have to go!🏃🏽‍♀️💨{topic=random}
+
 + *
 % mmm i am thinking of doing history art dramaand probably french
 - Yeah anyways, what are you doing after school?
+< topic
 
 + * 
 % yes anyways what are you doing after school
