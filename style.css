@@ -56,11 +56,11 @@ body {
 }
 
 .messages div a {
-  color: white;
+  color: rgba(255, 255, 255, 0.292);
 }
 
 .messages div a:hover {
-  color: blueviolet;
+  color: rgb(0, 0, 0);
 }
 
 .messages .bot {
@@ -86,7 +86,7 @@ body {
   position: sticky;
   bottom: -1px;
   padding: 10px 0px 20px;
-  background: white;
+  background: rgb(255, 255, 255,0);
 }
 
 .actions input {
@@ -101,7 +101,7 @@ body {
 }
 
 input:focus {
-  border-bottom: 2px solid blueviolet;
+  border-bottom: 2px solid rgb(0, 0, 0);
 }
 
 @media all and (min-width: 720px) {
