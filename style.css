@@ -2,7 +2,7 @@
 
 * {
   font-family: "Gill Sans", sans-serif;
-  font-size: 12pt;
+  font-size: 10pt;
   margin: 0;
   box-sizing: border-box;
 }
@@ -33,7 +33,7 @@ body {
 }
 
 .chat {
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(52, 46, 46, 0);
   box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.068);
   overflow: scroll;
   height: 100%;
