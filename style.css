@@ -1,14 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap");
 
 * {
-  font-family: "Inter", Arial;
+  font-family: "Gill Sans", sans-serif;
   font-size: 12pt;
   margin: 0;
   box-sizing: border-box;
 }
 
 body {
-  background: #757474;
+  background-image: url("compisitionstable1.png");
+  background-size: 1420px 900px; 
+  background-position: left;   
+  background-repeat: no-repeat; 
+  background-color: transparent;
+  
 }
 
 .title {
@@ -28,8 +33,8 @@ body {
 }
 
 .chat {
-  background: rgba(255,255,255, 0.5);
-  box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.068);
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.068);
   overflow: scroll;
   height: 100%;
   display: flex;
