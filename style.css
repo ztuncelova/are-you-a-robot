@@ -2,15 +2,14 @@
 
 * {
   font-family: "Gill Sans", sans-serif;
-  font-size: 10pt;
+  font-size: 11pt;
   margin: 0;
   box-sizing: border-box;
 }
 
 body {
   background-image: url("compisitionstable1.png");
-  background-size: 1420px 900px; 
-  background-position: left;   
+  background-size: cover; 
   background-repeat: no-repeat; 
   background-color: transparent;
   
@@ -31,6 +30,8 @@ body {
 .wrapper {
   height: 95vh;
 }
+
+
 
 .chat {
   background: rgba(52, 46, 46, 0);
