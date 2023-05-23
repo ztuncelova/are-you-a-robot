@@ -34,7 +34,7 @@ body {
 
 .title h1 {
   letter-spacing: 0.75px;
-  color: rgb(255, 255, 255);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .wrapper {
@@ -46,12 +46,15 @@ body {
 .chat {
   background: rgba(52, 46, 46, 0);
   box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.068);
-  overflow: scroll;
+  overflow: hidden;
   height: 100%;
+  width: 130%;
   display: flex;
   flex-direction: column;
   padding: 20px 20px 0px 20px;
   border-radius: 10px;
+  background-position-x: right 20px;
+  position: absolute
 }
 
 .messages {
@@ -82,8 +85,8 @@ body {
 .messages .bot {
   text-align: left;
   margin-right: auto;
-  background: rgba(0, 0, 0, 0.3);
-  border: 0.7px solid rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.1);
+  border: 0.7px solid rgba(0, 0, 0, 0.1);
   color: rgb(255, 255, 255);
 }
 
@@ -91,8 +94,8 @@ body {
   text-align: right;
   margin-right: 20px;
   margin-left: auto;
-  background: rgba(0, 0, 0, 0.3);
-  border: 1px solid rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   color: rgb(255, 255, 255);
 }
 
@@ -136,3 +139,4 @@ input:focus {
     height: 7.5vh;
   }
 }
+

@@ -180,8 +180,8 @@
 
 + no
 % hello can i help you|oh did brenda send you are you my carer for today
-- Then who are you? I think you've got the wrong door, love. {weight=50}{topic=random}
-- Perhaps you've come to the wrong house then, darling. Goodbye. {weight=50}{topic=random}
+- Then who are you? I think you've got the wrong door, love. {topic=random}
+- Perhaps you've come to the wrong house then, darling. Goodbye. {topic=random}
 
 + *
 % oh did brenda send you are you my carer for today
