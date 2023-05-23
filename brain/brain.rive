@@ -1,10 +1,78 @@
 ! version = 2.0
 
+
+// ANIMATIONS
+
+
+> object devrimup javascript
+  var body = document.getElementById("body");
+  document.getElementById('body').style.backgroundImage = "url('devrimup.gif')";
+  return '';
+< object
+
+
+> object devrimdown javascript
+  var body = document.getElementById("body");
+  document.getElementById('body').style.backgroundImage = "url('devrimdown.gif')";
+  return '';
+< object
+
+> object unknownup javascript
+  var body = document.getElementById("body");
+  document.getElementById('body').style.backgroundImage = "url('unknownup.gif')";
+  return '';
+< object
+
+> object unknowndown javascript
+  var body = document.getElementById("body");
+  document.getElementById('body').style.backgroundImage = "url('unknowndown.gif')";
+  return '';
+< object
+
+> object patriciaup javascript
+  var body = document.getElementById("body");
+  document.getElementById('body').style.backgroundImage = "url('patriciaup.gif')";
+  return '';
+< object
+
+
+> object patriciadown javascript
+  var body = document.getElementById("body");
+  document.getElementById('body').style.backgroundImage = "url('patriciadown.gif')";
+  return '';
+< object
+
+> object sajidup javascript
+  var body = document.getElementById("body");
+  document.getElementById('body').style.backgroundImage = "url('sajidup.gif')";
+  return '';
+< object
+
+> object sajiddown javascript
+  var body = document.getElementById("body");
+  document.getElementById('body').style.backgroundImage = "url('sajiddown.gif')";
+  return '';
+< object
+
+> object kup javascript
+  var body = document.getElementById("body");
+  document.getElementById('body').style.backgroundImage = "url('kup.gif')";
+  return '';
+< object
+
+> object kdown javascript
+  var body = document.getElementById("body");
+  document.getElementById('body').style.backgroundImage = "url('kdown.gif')";
+  return '';
+< object
+
+
+
 + *
 - Please write out 'unknown', 'devrim', 'patricia', 'sajid' or 'k'. Be nice to them.
 
 + [*] (unknown) [*]
-- Have you seen my papá? {topic=unknown}
+- Have you seen my papá? {topic=unknown} <call>unknownup</call>
 
 > topic unknown
 
@@ -34,21 +102,21 @@
 
 + *
 % i miss my mom she lives in delaware i do not know why am i still here
-* <star> == continue  => In fiscal year 2021, a record 122,000 children were taken into U.S. custody intionally separated children from their parents. These children already suffered trauma of violence and persecution in their native countries then to be lost, held captive in cages at the borders. {topic=random}
-* <star> == no  => Okay... {topic=random}
+* <star> == continue  => In fiscal year 2021, a record 122,000 children were taken into U.S. custody intionally separated children from their parents. These children already suffered trauma of violence and persecution in their native countries then to be lost, held captive in cages at the borders. {topic=random} <call>unknowndown</call>
+* <star> == no  => Okay... {topic=random} <call>unknowndown</call>
 - say continue or no.
 
 + *
 % say continue or no
-* <star> == continue  => In fiscal year 2021, a record 122,000 children were taken into U.S. custody intionally separated children from their parents. These children already suffered trauma of violence and persecution in their native countries then to be lost, held captive in cages at the borders. {topic=random}
-* <star> == no  => Okay... {topic=random}
+* <star> == continue  => In fiscal year 2021, a record 122,000 children were taken into U.S. custody intionally separated children from their parents. These children already suffered trauma of violence and persecution in their native countries then to be lost, held captive in cages at the borders. {topic=random} <call>unknowndown</call>
+* <star> == no  => Okay... {topic=random} <call>unknowndown</call>
 
 
 < topic 
 
 
 + [*] (devrim) [*]
-- Hi my name is Devrim, I just moved here from Turkey... Are you local? {topic=devrim}
+- Hi my name is Devrim, I just moved here from Turkey... Are you local? {topic=devrim} <call>devrimup</call>
 
 
 > topic devrim
@@ -57,7 +125,7 @@
 % hi my name is devrim i just moved here from turkey are you local
 * <star> == yes => Ah, that is great! What is your occupation?
 * <star> == no => Oh, where are you from?
-- I do not understand what are you saying... {topic=random}
+- I do not understand what are you saying... {topic=random} <call>devrimdown</call>
 
 + *
 - That is so cool tho 😝!! I mean for me, it is still quite unbelievable to be here. I miss home, but there is no other option… I have to help my family.
@@ -92,17 +160,17 @@
 
 + *
 % sorry i did not mean to be mean i am just trying to survive and send back as much money as i can i can not disappoint my family i need to succeed i need to be successful i need to there is no option to fail if i fail everything fails
-- Sorry, I just have to work hard and everything will be better! Inşallah {topic=random}
+- Sorry, I just have to work hard and everything will be better! Inşallah {topic=random} <call>devrimdown</call>
 
 + * 
-- I do not understand what are you saying... {topic=random}
+- I do not understand what are you saying... {topic=random} <call>devrimdown</call>
 < topic
 
 
 // This section concerns Patricia's toothbrush
 
 +[*] (patricia) [*]
-- Hello. Can I help you? {topic=patricia}
+- Hello. Can I help you? {topic=patricia} <call>patriciaup</call>
 
 > topic patricia
 
@@ -254,7 +322,7 @@
 
 + *
 % oh again i am so sorry for being such a negative nancy today but that was my life back then now life is much quieter and less busy i do deeply miss working with my friends but i do not miss the hours besides i am much too old for that now
-- Right well, that's enough of me blabbering. Shall we get going then? I'll quickly get my coat on and my purse, just wait a minute for me please.{topic=random}
+- Right well, that's enough of me blabbering. Shall we get going then? I'll quickly get my coat on and my purse, just wait a minute for me please.{topic=random} <call>patriciadown</call>
 
 < topic
 
@@ -262,7 +330,7 @@
 //sajid's toothbrush section
 
 +[*] (sajid) [*]
--  Oh hello! I haven’t seen you around here before. What’s your name? {topic=sajid}
+-  Oh hello! I haven’t seen you around here before. What’s your name? {topic=sajid} <call>sajidup</call>
 
 > topic sajid
 
@@ -389,11 +457,11 @@
 
 + no
 % could not hear you sorry did you say card
-- Cash it is then. That'll be £6.77. Here's your change and I hope you have a great day! {topic=random}
+- Cash it is then. That'll be £6.77. Here's your change and I hope you have a great day! {topic=random} <call>sajiddown</call>
 
 + cash
 % ooh by the way thatll be 677 you paying with cash or card|i see thatll be 677 you paying with cash or card
-- Thanks. Here's your change. Hopefully we'll see each other around soon. Take care!{topic=random}
+- Thanks. Here's your change. Hopefully we'll see each other around soon. Take care!{topic=random} <call>sajiddown</call>
 
 + *
 % could not hear you sorry did you say card
@@ -405,11 +473,11 @@
 
 + *
 % great just tap it against the reader for me andthats gone through do you want a receipt|so card yes just tap it against the reader for me please do you need a receipt as well
-- There you go. I hope you have an amazing day. Bye now!{topic=random}
+- There you go. I hope you have an amazing day. Bye now!{topic=random} <call>sajiddown</call>
 
 + no
 % great just tap it against the reader for me andthats gone through do you want a receipt|so card yes just tap it against the reader for me please do you need a receipt as well
-- No worries. Enjoy your day and see you again soon!{topic=random}
+- No worries. Enjoy your day and see you again soon!{topic=random} <call>sajiddown</call>
 < topic
 
 //Toothbrush returns to pot/end of conversation
@@ -418,7 +486,7 @@
 // K's toothbrush section
 
 +[*] (k) [*]
-- Sorry, do I know you? 🤨🤨{topic=k}
+- Sorry, do I know you? 🤨🤨{topic=k} <call>kup</call>
 
 > topic k
 
@@ -453,7 +521,7 @@
 
 + *
 % huh it is just a yes or a no question bro
-- Rah man, you're being weird. I'm gonna go, see ya!🥱{topic=random}
+- Rah man, you're being weird. I'm gonna go, see ya!🥱{topic=random} <call>kdown</call>
 
 + *
 % oh okay i swear on my life i have seen you in class before do not lie|really i feel like i have seen you before
@@ -465,7 +533,7 @@
 
 + no
 % i think you are lying cos i have literally seen you in class yesterday
-- Bro, you're actually annoying me now. I'm gonna go 🙄.{topic=random}
+- Bro, you're actually annoying me now. I'm gonna go 🙄.{topic=random} <call>kdown</call>
 
 + *
 % i thought so what is your name|i knew i have seen you before what is your name by the way|sowho are you then
@@ -529,7 +597,7 @@
 
 + *
 % bro what oh my god you are actually old howd you get into the school
-- Nahhhh, I actually have to go!🏃🏽‍♀️💨{topic=random}
+- Nahhhh, I actually have to go!🏃🏽‍♀️💨{topic=random} <call>kdown</call>
 
 + *
 % mmm i am thinking of doing history art dramaand probably french|right well anyways i am gonna do history art drama and maybe french i do not know yet|bruh so you are doing resits then thats so embarassing loooool
@@ -597,7 +665,7 @@
 
 + no
 % bro are you even listening
-- Bruh, I'm going home since you can't keep up a conversation. Bye weirdo!{topic=random}
+- Bruh, I'm going home since you can't keep up a conversation. Bye weirdo!{topic=random} <call>kdown</call>
 
 + *
 % yes i mean i am not like technically a true immigrant since i was born here but it is like i am made to feel like i am one in this country just because i follow my parents cultures and i can speak their languages too well barely but i can still understand what they are saying i am just not that good at replying back cos i wasnt really taught how to speak it you know
@@ -621,7 +689,7 @@
 
 + yes
 % sorry did i hear that right
-- Nah, you're weirdddd. I don't talk to people who hate immigrants, bye! 🖕{topic=random}
+- Nah, you're weirdddd. I don't talk to people who hate immigrants, bye! 🖕{topic=random} <call>kdown</call>
 
 + *
 % sorry did i hear that right
@@ -661,11 +729,11 @@
 
 + no
 % anyways it was really nice talking to you i have gotta go now so i will see you in school tomorrow yes wait give me your phone number so i can text you
-- No? Alright, I'll see you tomorrow then. Bye 😜.{topic=random}
+- No? Alright, I'll see you tomorrow then. Bye 😜.{topic=random} <call>kdown</call>
 
 + *
 % anyways it was really nice talking to you i have gotta go now so i will see you in school tomorrow yes wait give me your phone number so i can text you
-- Thanks. I've just called you, so don't forget to save my number yeah? Okay byeeeee! 🤪😝{topic=random}
+- Thanks. I've just called you, so don't forget to save my number yeah? Okay byeeeee! 🤪😝{topic=random} <call>kdown</call>
 < topic
 
 //Toothbrush returns to the pot

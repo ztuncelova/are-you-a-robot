@@ -17,6 +17,40 @@ form.addEventListener("submit", (e) => {
   input_box.focus();
 });
 
+function preloadObject(url) {
+  return new Promise((resolve, reject) => {
+    const object = new Image();
+    object.onload = () => resolve();
+    object.onerror = () => reject();
+    object.src = url;
+  });
+}
+
+preloadObject('devrimup.gif')
+
+preloadObject('kup.gif')
+
+preloadObject('patriciaup.gif')
+
+preloadObject('sajidup.gif')
+
+preloadObject('unknownup.gif')
+
+preloadObject('devrimdown.gif')
+
+preloadObject('kdown.gif')
+
+preloadObject('sajiddown.gif')
+
+preloadObject('unknowndown.gif')
+
+preloadObject('patriciadown.gif')
+
+
+
+
+
+
 function botReply(message) {
   message_container.innerHTML += `<div class="bot">${message}</div>`;
 }
@@ -41,3 +75,23 @@ function botReady() {
 function botNotReady(err) {
   console.log("An error has occurred.", err);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
